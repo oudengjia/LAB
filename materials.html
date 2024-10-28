@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Gong Lab</title>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+
+
+  <body>
+
+      <!--Header image part-->
+      <div class='header'>
+        <img class='headerimg' src='./img/bg.jpg'>
+      </div>
+      
+      <!--Navigation bar part---->
+      <div align='center'>
+        <nav>
+          <ul>
+            <li><a href='./index.html'>About Us</a></li>
+            <li><a href='./research.html'>Research</a></li>
+            <li><a href='./people.html'>People</a></li>
+            <li><a href='./publications.html'>Publications</a></li>
+            <li><a href='./news.html'>News</a></li>
+            <li><a href='./gallery.html'>Gallery</a></li>
+            <li><a class='active' href='./materials.html'>Learning Materials</a></li>
+        </ul>
+        </nav>
+      </div>
+
+<SCRIPT language=JavaScript> 
+ function password() {
+    var testV = 0; // 开始尝试次数计数
+    var pass1;
+
+    while (testV < 5) { // 允许最多5次尝试
+        pass1 = prompt('请输入密码:', '');
+
+        // 检查用户是否点击了“取消”
+        if (pass1 === null) {
+            window.location.href = 'http:index.html'; // 返回到首页
+            return; // 结束函数
+        }
+
+        if (pass1 === "Gonglab") {
+            alert('密码正确!');
+            // 此处可以添加文件下载的逻辑，例如
+            // window.location.href = 'your-file-url';
+            return; // 输入正确密码后结束函数
+        }
+
+        alert('密码错误!请重新输入:');
+        testV++; // 增加尝试次数
+    }
+
+    alert('尝试次数已用尽！');
+    window.location.href = 'http:index.html'; // 尝试次数用尽后返回到首页
+}
+// 调用密码函数
+password();
+
+</SCRIPT>
+      <!------------------------->
+      <div style="text-align: center;margin: 30px 30px">
+        <table style="width: 75%" " border="0">
+                      
+                      <!-- Research -->
+                    <tr>
+                      <div class='h4'>
+                        <b>EEG</b>    
+                        <p style="font-size: 25px; text-indent: 0px ;color:  hsl(219, 93%, 24%); " > <b></b></p>     
+                      <p>
+                        <li>SOP(Standard operating process) <a href="./materials/脑电实验全流程(终版).pdf" download="脑电实验全流程(终版).pdf">[pdf]</a></li>
+                      </p>
+                      <p>
+                        <li>Pipeline <a href="./materials/EEGpipeline_MG.docx"download="EEGpipeline_MG.docx">[docx]</a></li>  
+                      </p>    
+                      <p>
+                        <li>EEGLAB/ERPLAB: data analysis <a href="./materials/eeglab_erplab_-_data_analysis_in_gui [GongLab wiki].pdf" download="eeglab_erplab_-_data_analysis_in_gui [GongLab wiki].pdf">[pdf]</a></li><br>   
+                      </p>    
+                      </div>
+                    </tr>
+                      <div class='h4'>
+                        <b>fMRI</b>    
+                        <p style="font-size: 25px; text-indent: 0px ;color:  hsl(219, 93%, 24%); " > <b></b></p>     
+                        <p>
+                          <li>SOP(Standard operating process) <a href="./materials/fMRI_SOP_byChenyl.docx">[docx]</a><br></li>
+                        </p>
+                        <p>
+                          <li>Brainvoyager Procedures Workbook <a href="./materials/Brainvoyager QX Procedures Workbook for 2.x.docx">[docx]</a></li>  
+                        </p> 
+                        <p>
+                          <li>7T fMRI safety screening form <a href="./materials/3.+浙江大学7T磁共振安全筛查表.pdf" download="3.+浙江大学7T磁共振安全筛查表.pdf">[pdf]</a></li><br>   
+                        </p> 
+                        
+                      </div>
+
+                      <div class='h4'>
+                        <b>Experiment safety and ethics</b>    
+                        <p style="font-size: 25px; text-indent: 0px ;color:  hsl(219, 93%, 24%); " > <b></b></p>          
+                        <p>
+                          <li>EEG Participants informed consent <a href="./materials/受试者知情同意书(脑电).doc">[doc]</a></li>   
+                        </p> 
+                        <p>
+                          <li>fMRI Participants informed consent <a href="./materials/受试者知情同意书(磁共振).doc">[doc]</a></li>   
+                        </p> 
+                        <p>
+                          <li>TMS Participants informed consent <a href="./materials/受试者知情同意书(经颅磁刺激).doc">[doc]</a></li> <br>
+                        </p> 
+                      </div>
+                      <div class='h4'>
+                        <b>Manuscript</b>    
+                        <p style="font-size: 25px; text-indent: 0px ;color:  hsl(219, 93%, 24%); " > <b></b></p>     
+                        <p>
+                          <li>The manuscript of this website <a href="./materials/网站设置手册.docx">[doc]</a></li> 
+                        </p>      
+                     </div>
+      
+       </table>
+    </div>
+    </html>

@@ -1,0 +1,283 @@
+/*--------------- Home Page--------------- */
+body{
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    padding: 0; 
+}
+td.top{
+  vertical-align: top;
+}
+
+
+/*--------------- About Us Page--------------- */
+
+/* header section */
+div.header{
+  background-color: #013674;
+}
+img.headerimg{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* Navigation bar */
+
+nav {
+  background-color: #013674;
+  display: block;
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+nav > ul > li > a {
+    color: rgb(255,255,255);
+    display: block;
+    line-height: 25px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+nav > ul > li:hover > a {
+    color: #FFBF00;
+}
+.active {
+    color: #FFBF00;
+}
+
+
+/* content part */
+div.h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+div.h2{
+    font-size: 25px;
+    text-align: left;
+    text-indent:4em;
+}
+
+div.h3{
+    font-size: 24px;
+    text-align: center;
+    text-indent:0em;
+}
+div.h4{
+  font-size: 24px;
+  text-align: justify;
+  text-indent:2em;
+}
+
+
+div.intro{
+    text-align: justify;
+    text-indent:2em;
+    font-size: 23px; 
+    padding-left: 3em;
+}
+
+div.name{
+    text-align: center;
+    text-indent:2em;
+    font-size: 23px; 
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+img.MengyuanGong{
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  float:none; 
+  overflow: hidden;
+  padding-right: 5em;
+}
+
+img.Loc{
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+  float:initial; 
+  overflow: visible;
+}
+
+div.disress{
+  font-size: 20px; 
+  text-indent: 8em; 
+  line-height: 1.5; 
+  text-align: justify;
+}
+
+p.title{
+  font-size: 25px; 
+  text-indent: 1em; 
+  line-height: 1.5; 
+  text-align: center;
+}
+
+p.content{
+  font-size: 25px; 
+  text-indent: 0.8em; 
+  line-height: 1.5; 
+  text-align: center;
+}
+
+
+
+/*--------------- News and Research Page--------------- */
+/* content part is the same as above temporally*/
+
+/*--------------- People Page--------------- */
+div.h2{
+    font-size: 27px;
+    text-align: left;
+}
+
+div.peopletitle{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: hsl(219, 93%, 24%);
+  
+}
+ul.people{
+  padding: 0;
+  font-size: medium;
+  list-style-type: none;
+}
+li.people{
+  padding-left: 180px
+}
+img.peopleimg{
+  width: 300px;
+  height: 300px;
+  object-fit: contain; 
+  float:none; 
+  overflow: visible;
+}
+
+p.alumni{
+  font-size: 30px; 
+  text-indent: 1em; 
+  line-height: 1; 
+  text-align: center;
+}
+
+
+div.peoplecontent{
+  font-size: 22px; 
+  text-align: justify;
+  padding-left:5em;
+  padding-right:5em
+  text-indent: 2em;
+  line-height: 1.5em;
+  margin-left:1em;
+  margin-right:5em
+}
+
+div.indent{
+  text-indent:2em;
+}
+
+img.leader{
+  width: 50%;
+  height: 50%;
+  margin-left: 30em;
+  object-fit: contain; 
+  float:center; 
+  overflow: hidden;
+}
+
+
+
+/*--------------- researchs Page--------------- */
+img.researchimg{
+  width: 600px;
+  height: 600px;
+  object-fit: contain; 
+  float:center; 
+  overflow: visible;
+}
+
+div.join{
+  font-size: 24px;
+  text-align: justify;
+}
+
+/*--------------- Publications Page--------------- */
+/* Publication list section */
+#pubinstr{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.pubsubtitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+ol.ref{
+    margin-left: 7em;
+    font-size: 22px;
+    margin-right:7em;
+}
+
+ul.ref{
+  margin-left: 6em;
+  font-size: 22px;
+  margin-right:6em;
+}
+
+p.pubyear{
+    margin-left: 1em;
+    font-size: medium;
+}
+
+subtitle{
+  text-decoration-style: solid;
+}
+/*--------------- Contact Us Page--------------- */
+p.contactpage{
+  font-size: large;
+  text-align: center;
+  line-height: 25px;
+}
+
+img.contact{
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  margin-left: 60em
+  float:none; 
+  overflow: hidden;
+}
+
+/*--------------- Gallery Page--------------- */
+img.gallery{
+  width: 70%;
+  height: 70%;
+  object-fit: contain; 
+  float:none; 
+  overflow: hidden;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+}

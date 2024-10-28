@@ -1,0 +1,99 @@
+     <!--Main part---->
+      <!------------------------->
+      <body>
+        <h2>Login</h2>
+       <!-- <form action="login.php" method="post">-->
+        <form method="post" action="login.php">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Access Materials">
+        </form>
+    
+        <!-- 内容区域 -->
+        <div id="content" style="display: none;">
+            <!-- 这里放置你的材料内容 -->
+            <p>这里是受密码保护的材料内容。</p>
+        </div>
+    
+        <script>
+            // 当文档加载完成后执行
+            document.addEventListener('DOMContentLoaded', function() {
+                // 检查是否存在有效的会话
+                if ('<?php echo session_status(); ?>' === 'PHP_SESSION_ACTIVE' && '<?php echo isset($_SESSION['authenticated']); ?>' === '1') {
+                    // 如果会话有效且用户已认证，显示内容
+                    document.getElementById('content').style.display = 'block';
+                } else {
+                    // 如果会话无效或用户未认证，隐藏内容
+                    document.getElementById('content').style.display = 'none';
+                }
+            });
+        </script>
+    </body>
+ 
+
+
+
+ function password() { 
+ 
+var testV = 1; 
+ 
+var pass1 = prompt('请输入密码:',''); 
+ 
+while (testV < 3) { 
+ 
+if (!pass1) 
+ 
+history.go(-1); 
+ 
+if (pass1 == "Gonglab") { 
+ 
+alert('密码正确!'); 
+ 
+break; 
+ 
+} 
+ 
+testV+=-1; 
+ 
+var pass1 = prompt('密码错误!请重新输入:'); 
+ 
+} 
+ 
+if (pass1!="password" & testV ==3) 
+ 
+history.go(-1); 
+
+ 
+return " "; 
+
+ 
+} 
+
+<!--ren -->
+
+              <tr>
+                 <td align="center">
+                      <img class='peopleimg' src='./img/people/Panchaoya.jpeg'><br><br>
+                  <br>
+                 </td>
+                <td align="center">
+                  <div class="peoplecontent">
+                      <b>Chaoya Pan</b><br>
+                      pcywork123@163.com<br>
+                      Chaoya graduated from Imperial College London in 2020 with a Master of Science degree. Chaoya joined the lab in the fall of 2020. She currently examines the processing mechanism of emotional faces in social anxiety groups through behavioral paradigms.
+                  </div>
+                </td>
+              </tr>
+              <br>
+
+              <tr>
+                <td align="center">
+                    <img class='peopleimg' src='./img/people/Wuweidi.jpg'><br><br><br>
+                    </td>
+                <td align="top">
+                  <div class="peoplecontent">
+                    <b>Weidi Wu</b><br>
+                    Weidi graduated in 2023.
+                  </div>        
+                </td>
+            </tr>
