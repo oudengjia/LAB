@@ -68,7 +68,7 @@ div.h1{
 }
 
 div.h2{
-    font-size: 25px;
+    font-size: 30px;
     text-align: left;
     text-indent:4em;
 }
@@ -79,7 +79,7 @@ div.h3{
     text-indent:0em;
 }
 div.h4{
-  font-size: 24px;
+  font-size: 20px;
   text-align: justify;
   text-indent:2em;
 }
@@ -88,14 +88,14 @@ div.h4{
 div.intro{
     text-align: justify;
     text-indent:2em;
-    font-size: 23px; 
+    font-size: 20px; 
     padding-left: 3em;
 }
 
 div.name{
     text-align: center;
     text-indent:2em;
-    font-size: 23px; 
+    font-size: 25px; 
     font-weight: bold;
     padding-left: 1em;
 }
@@ -118,8 +118,8 @@ img.Loc{
 }
 
 div.disress{
-  font-size: 20px; 
-  text-indent: 8em; 
+  font-size: 17px; 
+  text-indent: 10em; 
   line-height: 1.5; 
   text-align: justify;
 }
@@ -150,11 +150,10 @@ div.h2{
 }
 
 div.peopletitle{
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   font-weight: bold;
   color: hsl(219, 93%, 24%);
-  
 }
 ul.people{
   padding: 0;
@@ -181,13 +180,34 @@ p.alumni{
 
 
 div.peoplecontent{
-  font-size: 22px; 
+  font-size: 25px; 
   text-align: justify;
   padding-left:5em;
   padding-right:5em
-  text-indent: 2em;
+  text-indent: 0em;
   line-height: 1.5em;
-  margin-left:1em;
+  margin-left:0em;
+  margin-right:5em
+}
+div.peopleEmail{
+  font-size: 17px; 
+  text-align: justify;
+  padding-left:5em;
+  padding-right:5em
+  text-indent: 0m;
+  line-height: 1.5em;
+  margin-left:2.3em;
+  margin-right:5em
+}
+
+div.peoplesubcontent{
+  font-size: 20px; 
+  text-align: justify;
+  padding-left:5em;
+  padding-right:5em
+  text-indent: 0em;
+  line-height: 1.5em;
+  margin-left:1.2em;
   margin-right:5em
 }
 
@@ -231,16 +251,17 @@ p.pubsubtitle{
     text-align: center;
     font-weight: bold;
     font-size: x-large;
+    font-size: 30px;
 }
 ol.ref{
     margin-left: 7em;
-    font-size: 22px;
+    font-size: 20px;
     margin-right:7em;
 }
 
 ul.ref{
   margin-left: 6em;
-  font-size: 22px;
+  font-size: 20px;
   margin-right:6em;
 }
 
