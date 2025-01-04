@@ -47,22 +47,30 @@
                   </p>
                 </div>
               -->
-       </table>
-       
-
-       <ul class='ref'>
-        <span style="text-decoration: underline solid hsl(199, 74%, 40%)"> <p style="font-size: 25px; text-indent: 0px ;color:  hsl(219, 93%, 24%); " > <b>Academic exchange</b></p></span>
-       <li><p>Tan, Q., Gong, M.(2024). Reward history modulates attention based on spatial relationship. The 2024 Academic Annual Meeting of the General and Experimental Psychology Professional Committee of the Chinese Psychological Society, Lanzhou, Gansu</p></li>
-       <li><p>Jia, O., Gong, M.(2023). The impact of search mode on reward-driven attentional effects. The 2023 Zhejiang Psychology Academic Conference, Huzhou, Zhejiang</p></li>
-       <li><p>Pan, C., Pan, R., Wang, J., Wang, X., Chen, Q., Gong, M.(2023). The involvement of monocular channels in the deficits of facial emotion processing in social anxiety and depression. The 2023 Academic Annual Meeting of the General and Experimental Psychology Professional Committee of the Chinese Psychological Society, Jinhua, Zhejiang</p></li>
-       <li><p>Wu, W., Gong, M.(2022). The regulatory mechanism of reward association on feature-based rhythmic attention. Zhejiang Psychology Academic Conference, Shaoxing, Zhejiang</p></li>
-       <li><p>Chen, Y., Liu, T., Gong, M.(2022). An Abstract Neural Representation for Feature-Based Preparatory Attention. The 15th National Academic Conference of the Chinese Society for Neuroscience (Online)</p></li>
-       <li><p>Chen, Y., Gong, M.(2021). Reward-driven attentional effect based on feature relationships, National Psychology Conference (Online)</p></li>
-       <li><p>Chen, Y., Gong, M., Liu, T.(2021). Preparatory Attention to Visual Features Relies on Abstract Neural Representation. "Dual Brains and Psychology" National Doctoral Academic Forum. Hangzhou, Zhejiang</p></li>
-       <li><p>Gong, M.(2021). Neural representation of feature-based attention in human frontoparietal network. The 2023 Academic Annual Meeting of the General and Experimental Psychology Professional Committee of the Chinese Psychological Society, Youth Forum, Oral Report, Guizhou</p></li>
-      </table>
-    
-
-
+                <br>              
+                <p class="news-current">Academic Conference</p>
+              <div class="news-container">
+                <div class="news" onclick="toggleNews(this)">
+                  <img src="./img/poster/Qingsong poster.png" alt="Lanzhou">
+                  <h3>Tan, Q., Gong, M.</h3>
+                  <p>Lanzhou, 10.2024</p>
+                  <p class="read-more"><1p>
+                  </div>
+                  <div class="news" onclick="toggleNews(this)">
+                    <img src="./img/poster/Qingsong poster.png" alt="Lanzhou">
+                    <h3>Tan, Q., Gong, M.</h3>
+                    <p>Lanzhou, 10.2024</p>
+                    <p class="read-more"><1p>
+                    </div>
+                </div>
+                    <script>
+                      function toggleNews(news) {
+                        var news= document.querySelectorAll('.news');
+                        news.forEach(function(m) {
+                          m.classList.remove('active');
+                        });
+                        news.classList.add('active');
+                      }
+                    </script>
   </body>
 </html>

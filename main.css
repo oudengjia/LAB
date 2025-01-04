@@ -34,6 +34,7 @@ nav {
   width: 100%;
   overflow: hidden;
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav ul li {
   display: inline-block;
@@ -68,9 +69,12 @@ div.h1{
 }
 
 div.h2{
-    font-size: 30px;
+    font-size: 50px;
     text-align: left;
     text-indent:4em;
+    color: hsl(219, 93%, 24%);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 div.h3{
@@ -82,14 +86,16 @@ div.h4{
   font-size: 20px;
   text-align: justify;
   text-indent:2em;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
 div.intro{
     text-align: justify;
     text-indent:2em;
-    font-size: 20px; 
+    font-size: 18px; 
     padding-left: 3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div.name{
@@ -98,6 +104,7 @@ div.name{
     font-size: 25px; 
     font-weight: bold;
     padding-left: 1em;
+    font-family:'Times New Roman', Times, serif;    
 }
 
 img.MengyuanGong{
@@ -122,6 +129,7 @@ div.disress{
   text-indent: 10em; 
   line-height: 1.5; 
   text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p.title{
@@ -145,15 +153,18 @@ p.content{
 
 /*--------------- People Page--------------- */
 div.h2{
-    font-size: 27px;
+    font-size: 35px;
     text-align: left;
+    font-weight: bold;
+    color: hsl(219, 93%, 24%);
+    padding-left:1.5em;
+    padding-right:4em;
 }
 
 div.peopletitle{
   font-size: 30px;
   text-align: center;
-  font-weight: bold;
-  color: hsl(219, 93%, 24%);
+
 }
 ul.people{
   padding: 0;
@@ -182,12 +193,12 @@ p.alumni{
 div.peoplecontent{
   font-size: 25px; 
   text-align: justify;
-  padding-left:5em;
-  padding-right:5em
+
   text-indent: 0em;
   line-height: 1.5em;
   margin-left:0em;
-  margin-right:5em
+  margin-right:5em;
+  font-family: 'Times New Roman', Times, serif;
 }
 div.peopleEmail{
   font-size: 17px; 
@@ -201,14 +212,15 @@ div.peopleEmail{
 }
 
 div.peoplesubcontent{
-  font-size: 20px; 
+  font-size: 12zpx;
   text-align: justify;
-  padding-left:5em;
+  padding-left:0em;
   padding-right:5em
   text-indent: 0em;
   line-height: 1.5em;
   margin-left:1.2em;
-  margin-right:5em
+  margin-right:5em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div.indent{
@@ -224,20 +236,58 @@ img.leader{
   overflow: hidden;
 }
 
-
-
-/*--------------- researchs Page--------------- */
-img.researchimg{
-  width: 600px;
-  height: 600px;
-  object-fit: contain; 
-  float:center; 
-  overflow: visible;
+.people-current{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  font-size: 30px;
+  color:#013674;
+}
+.member-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-div.join{
-  font-size: 24px;
-  text-align: justify;
+.member {
+  flex: 1 1 200px; /* 这允许成员在容器中占据至少200px的宽度，但也可以更小 */
+  margin: 10px; /* 添加一些外边距 */
+  border: 0px solid #ccc;
+  padding: 10px;z
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #141414;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15zpx;
+  margin-left:4em;
+}
+.member img {
+  width: auto; /* 设置图片宽度为80px */
+  height: 200px; /* 保持图片高度自动，以维持图片的原始比例 */
+  margin-bottom: 10px; /* 图片和文本之间的间距 */
+  text-align: center;
+}
+.member:hover {
+  background-color: #ffffff;
+}
+
+.member.active {
+  background-color: #ffffff;
+}
+
+.read-more {
+  display: none;
+}
+
+
+.member.active .read-more {
+  display: block;
+  color: #141414;
+  text-align:left;
+  font-size: 12zpx;
+  margin-right:4em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*--------------- Publications Page--------------- */
@@ -252,6 +302,8 @@ p.pubsubtitle{
     font-weight: bold;
     font-size: x-large;
     font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 ol.ref{
     margin-left: 7em;
@@ -263,6 +315,8 @@ ul.ref{
   margin-left: 6em;
   font-size: 20px;
   margin-right:6em;
+  list-style-type: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p.pubyear{
@@ -272,21 +326,6 @@ p.pubyear{
 
 subtitle{
   text-decoration-style: solid;
-}
-/*--------------- Contact Us Page--------------- */
-p.contactpage{
-  font-size: large;
-  text-align: center;
-  line-height: 25px;
-}
-
-img.contact{
-  width: 100%;
-  height: 100%;
-  object-fit: contain; 
-  margin-left: 60em
-  float:none; 
-  overflow: hidden;
 }
 
 /*--------------- Gallery Page--------------- */
@@ -300,5 +339,100 @@ img.gallery{
   margin-left: 60px;
   margin-top: 60px;
   margin-bottom: 60px;
+}
 
+div.gallery{
+  text-align: justify;
+  text-indent:0em;
+  font-size: 18px; 
+  padding-left: 0em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column; /* 将flex方向设置为列 */
+  align-items: center; /* 水平居中对齐 */
+  flex-wrap: wrap; /* 允许换行 */
+}
+
+.image-container img {
+  width: 80%; /* 设置图片宽度为容器的100% */
+  height: auto; /* 保持图片的原始宽高比 */
+  max-width: 600px; /* 设置图片的最大宽度，防止图片过大 */
+  margin-bottom: 20px; /* 图片与文字之间的间距 */
+}
+
+.image-container p {
+  margin: 0; /* 去除默认的外边距 */
+  text-align: center;
+  margin-top: -10px;
+}
+
+/* 为两张图片之间的间距添加额外的外边距 */
+.image-container img:nth-child(3n+2) {
+  margin-top: 100px; /* 第二行第一张图片的上边距 */
+}
+
+
+
+/*--------------- news Page--------------- */
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.news{
+  flex: 1 1 200px; /* 这允许成员在容器中占据至少200px的宽度，但也可以更小 */
+  margin: 10px; /* 添加一些外边距 */
+  border: 0px solid #ccc;
+  padding: 10px;z
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #141414;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15zpx;
+  margin-left:4em;
+  text-align: center;
+}
+.news img {
+  width: auto; /* 设置图片宽度为80px */
+  height: 600px; /* 保持图片高度自动，以维持图片的原始比例 */
+  margin-bottom: 10px; /* 图片和文本之间的间距 */
+  text-align: center;
+}
+.news:hover {
+  background-color: #ffffff;
+}
+
+.news.active {
+  background-color: #ffffff;
+}
+
+.read-more {
+  display: none;
+}
+
+
+.news.active .read-more {
+  display: block;
+  color: #141414;
+  text-align:left;
+  font-size: 12zpx;
+  margin-right:4em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.news-current{
+  font-family: 'Times New Roman', Times, serif;
+  text-align:center;
+  font-weight: bold;
+  font-size: x-large;
+  font-size: 30px;
+  text-indent: 0em;
+  color:#013674;
 }
