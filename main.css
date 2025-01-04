@@ -301,7 +301,7 @@ p.pubsubtitle{
     text-align: center;
     font-weight: bold;
     font-size: x-large;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 
 }
@@ -312,9 +312,10 @@ ol.ref{
 }
 
 ul.ref{
-  margin-left: 6em;
-  font-size: 20px;
-  margin-right:6em;
+  margin-left8 6em;
+  font-size: 17px;
+  margin-right:5em;
+  margin-left:5em;
   list-style-type: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
