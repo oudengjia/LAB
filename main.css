@@ -213,7 +213,7 @@ div.peopleEmail{
 }
 
 div.peoplesubcontent{
-  font-size: 12zpx;
+  font-size: 18zpx;
   text-align: justify;
   padding-left:0em;
   padding-right:5em
@@ -255,7 +255,7 @@ img.leader{
   flex: 1 1 200px; /* 这允许成员在容器中占据至少200px的宽度，但也可以更小 */
   margin: 10px; /* 添加一些外边距 */
   border: 0px solid #ccc;
-  padding: 10px;z
+  padding: 10px;
   transition: all 0.3s ease;
   cursor: pointer;
   color: #141414;
@@ -314,6 +314,7 @@ img.leader{
   text-align: center; /* 文本居中 */
   vertical-align: middle; /* 垂直居中 */
   display: table-cell;
+  font-family: 18zpx;
 }
 
 /*--------------- Publications Page--------------- */
